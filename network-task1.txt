@@ -1,0 +1,37 @@
+# Nmap 7.97 scan initiated on 2025-05-26 at 19:50 +0400
+# Command: nmap -sS 192.168.3.0/24
+
+Nmap scan report for 192.168.3.1
+Host is up (0.0031s latency).
+Not shown: 997 filtered ports
+PORT     STATE SERVICE
+53/tcp   open  domain
+80/tcp   open  http
+443/tcp  open  https
+
+Nmap scan report for 192.168.3.11
+Host is up (0.0015s latency).
+Not shown: 999 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+
+Nmap scan report for 192.168.3.12
+Host is up (0.0020s latency).
+Not shown: 998 closed ports
+PORT     STATE SERVICE
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+
+Nmap scan report for 192.168.3.14
+Host is up (0.0029s latency).
+All 1000 scanned ports on 192.168.3.14 are closed
+
+Nmap scan report for 192.168.3.25
+Host is up (0.0032s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+23/tcp   open  telnet
+80/tcp   open  http
+
+# Scan done at 19:55 +0400 -- 5 IP addresses (5 hosts up) scanned in 42.23 seconds
